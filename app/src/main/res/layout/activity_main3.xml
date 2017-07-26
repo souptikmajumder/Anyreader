@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.finaltess.Main3Activity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:id="@+id/abc1"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="281dp"-->
+        <!--android:layout_below="@+id/abc1"-->
+        <!--android:id="@+id/abc2"-->
+        <!--/>-->
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="281dp"-->
+        <!--android:layout_below="@+id/abc2"-->
+        <!--android:id="@+id/abc3"-->
+        <!--/>-->
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scroll1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:id="@+id/trytext1"/>
+
+</ScrollView>
+
+</LinearLayout>
